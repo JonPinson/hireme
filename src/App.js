@@ -1,24 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import SquaresBG from 'react-animated-squares';
+import { Carousel } from '@trendyol-js/react-carousel';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='top'>
+        <SquaresBG count={20} speed={0.9} backgroundColor="#3333333" />
+        <div className='namePlate'>
+          <div className='nameDiv'>
+            <h3>Jon Pinson</h3>
+            <p>JavaScript Developer</p>
+          </div>
+        </div>
+      </div>
+
+      <div className='experience'>
+        <div className='slideshow'>
+          <div className='slide'>
+            <Carousel>
+            <img src='' alt='image' />
+            <img src='' alt='image' />
+            <img src='' alt='image' />
+            <img src='' alt='image' />
+            </Carousel>
+            
+          </div>
+          <div className='textbox'>
+          <h2>Experience</h2>
+          <p>A paragraph or two talking about it.</p>
+        </div>
+       </div>
+
+      </div>
+       
+    </>
   );
 }
 
