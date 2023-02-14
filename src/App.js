@@ -1,6 +1,6 @@
 import './App.css';
 import SquaresBG from 'react-animated-squares';
-import { Carousel } from '@trendyol-js/react-carousel';
+
 
 function App() {
   return (
@@ -18,12 +18,7 @@ function App() {
       <div className='experience'>
         <div className='slideshow'>
           <div className='slide'>
-            <Carousel>
-            <img src='' alt='image' />
-            <img src='' alt='image' />
-            <img src='' alt='image' />
-            <img src='' alt='image' />
-            </Carousel>
+         
             
           </div>
           <div className='textbox'>
