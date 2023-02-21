@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #333;
+  background-color: black;
   color: #ccc;
 }
 
@@ -30,7 +30,7 @@ background-color: #ccc;
 color: #333;
 }
 
-.slideshow {
+.slideRow {
   width: 90%;
   margin: auto;
   height: 55vh;
@@ -40,8 +40,9 @@ color: #333;
 
 .slide {
   flex: 1;
-  margin-right: 3rem;
   border: 1px solid #fff;
+  height: 350px;
+  
 }
 
 .slide img {
@@ -52,5 +53,62 @@ color: #333;
 
 .textbox {
   flex: 1;
+  border: 1px solid #fff ;
+  height: auto;
+  background-color: #fff;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.workWrapper {
+  min-height: 66vh;
+  width: 100%;
+  background-color: #ccc;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.workWrapper h3 {
+  margin: 0;
+  padding: 1rem;
+}
+
+.workColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
+  border-top: #333 1px solid;
+  width: 75vw;
+}
+
+#jobList {
+  width: 80%;
+
+}
+
+.work {
+  display: flex;
+  flex-direction: row;
+}
+
+.years {
+  flex: 1;
+  padding: 1rem;
+  text-align: right;
+}
+
+.job {
+  flex: 1;
+  padding: 1rem;
+  text-align: left;
+}
+
+#edColumn {
+  border: none;
+  width: 80%;
+}
