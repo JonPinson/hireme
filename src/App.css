@@ -41,7 +41,7 @@ color: #333;
 .slide {
   flex: 1;
   border: 1px solid #fff;
-  height: 350px;
+  height: 100%;
   
 }
 
@@ -114,7 +114,7 @@ color: #333;
 }
 
 .footer {
-  min-height: 33vh;
+  min-height: 10vh;
   background-color: #333;
   display: flex;
   justify-content: space-around;
